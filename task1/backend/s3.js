@@ -8,9 +8,9 @@ const randomBytes = promisify(crypto.randomBytes);
 dotenv.config()
 
 const region="ap-south-1"
-const bucketName="ishita-bucket1-busatech"
-const accessKeyId="AKIAW36RUB2EGPRUVAGJ"
-const secretAccessKey="SBOul+QzZdyP9WwBSmoDv9Gqp/F8yvgZPC08Skzk"
+const bucketName="your-bucket-name"
+const accessKeyId="your-access-key"
+const secretAccessKey="your-secret-key"
 
 const s3=new aws.S3({
 
